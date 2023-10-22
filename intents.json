@@ -1,0 +1,415 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+    "tag": "programs",
+    "patterns": [
+      "What courses are offered in your college?","courses","programs",
+      "What courses are there?",
+      "What programs do you offer",
+      "Which technologies you teach",
+      "what domain courses are available"
+    ],
+    "responses": [
+      "https://www.georgiancollege.ca/academics/programs/"
+    ]
+    },
+    {
+    "tag": "fees",
+    "patterns": [
+        "pay fees",
+        "fees",
+      "How can i pay my fees?",
+      "How to pay the fees?",
+      "where to pay the fees?",
+      "Where can i pay my fees"
+    ],
+    "responses": [
+      "https://www.georgiancollege.ca/international/finance-and-fees/#how-to-pay-your-fees"
+    ]
+    },
+    {
+     "tag": "cost",
+     "patterns": [
+         "fees details",
+         "How much it costs",
+       "what is the tution fee",
+       "what is the course fee",
+       "Course wise fee"
+     ],
+     "responses": [
+       "https://content.georgiancollege.ca/wp-content/uploads/22-23-Georgian-College-Program-Fees.pdf"
+     ]
+    },
+    {
+     "tag": "timetable",
+     "patterns": [
+         "schedule",
+         "where can i check my timetable",
+         "Where can i check my schedule of classes",
+         "class timings",
+         "class schedule"
+     ],
+     "responses": [
+       "Login to Banner -> Go to Registrations Tab -> You can see Weekly Timetable"
+     ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "registration process",
+        "how to register ",
+        "how to register for courses",
+        "when does registration start",
+        "registration date"
+      ],
+      "responses": [
+        "Login to Banner -> Go to Registrations Tab -> Select the Semester you want to register and proceed. If the registration is not available check for the dates appropriately and act according to the pop up message in the page"
+      ]
+
+    },
+    {
+      "tag": "balance_amount",
+      "patterns": [
+        "What is my balance fee amount",
+        "fee due",
+        "fee details",
+        "account summary",
+        "Balance amount in account"
+      ],
+      "responses": [
+        "Login to Banner -> Click on Academic Record and Fee Account Details -> Go to View Total Account Summary or Total Account summary by term"
+
+      ]
+    },
+    {
+      "tag": "grades",
+      "patterns": [
+        "how can i check my grades",
+        "what are my grades",
+        "how can i check my final grades",
+        "How to check grades",
+        "are final grades announced"
+      ],
+      "responses": [
+        "Login to Banner -> Click on Academic Record and Fee Account Details -> Go to View Final Grades -> Select specific Semester"
+      ]
+    },
+    {
+      "tag": "schlorship",
+      "patterns": [
+        "aligibility for schlorship",
+        "How much scholorship can students get",
+        "how to apply for scholorship"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/finance-and-fees/awards/"
+
+      ]
+    },
+    {
+      "tag": "accomodation",
+      "patterns": [
+        "Does college provide accomodation",
+        "How to apply for accomodation in college",
+        "How much does it cost for accomodation in college",
+        "cost of accomodation in college"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/student-life/campus-services/residence-housing/"
+      ]
+    },
+    {
+      "tag": "program fee",
+      "patterns": [
+        "What is fee of courses",
+        "how to check fee of courses",
+        "Fee of each course"
+      ],
+      "responses": [
+        "https://content.georgiancollege.ca/wp-content/uploads/22-23-Georgian-College-Program-Fees.pdf"
+      ]
+    },
+    {
+      "tag": "important dates",
+      "patterns": [
+        "What are the important dates in this semester",
+        "important dates",
+        "what are important dates in this academic year"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/admissions/important-dates/"
+      ]
+    },
+    {
+      "tag": "course contents",
+      "patterns": [
+        "where can i check course contents",
+        "Where can i check weekly timetable",
+        "how can i check announcements",
+        "How to submit assignments"
+
+      ],
+      "responses": [
+        "Click on Login on Georgian College website -> Login to Blackboard to see the courses you registered"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "In what sports does georgian college participate",
+        "What sports are available in college",
+        "What sports facilities does college have",
+        "How can I join sports club"
+      ],
+      "responses": [
+        "https://georgiangrizzlies.ca/navbar-sports"
+      ]
+    },
+    {
+      "tag": "sports registration",
+      "patterns": [
+        "how to register for sports",
+        "How can i play sports for college",
+        "sports registration"
+      ],
+      "responses": [
+        "Contact sports club"
+      ]
+    },
+    {
+      "tag": "athletics",
+      "patterns": [
+        "Are ther any social media pages for athletics",
+        "athletics",
+        "socialmedia athleics",
+        "Where can i follow athletics on social media"
+      ],
+      "responses": [
+        "https://www.facebook.com/GeorgianGrizz/,%20https:/twitter.com/GeorgianGrizz%20,%20https:/www.youtube.com/user/GeorgianGrizzlies,%20%20https:/www.instagram.com/georgiangrizz/"
+      ]
+    },
+    {
+      "tag": "sports calender",
+      "patterns": [
+        "sports calender",
+        "Where can i follow sports calender",
+        "sports schedule",
+        "sports events"
+      ],
+      "responses": [
+        "https://georgiangrizzlies.ca/composite"
+      ]
+    },
+    {
+      "tag": "esports",
+      "patterns": [
+        "esports",
+        "Are there any esports in college",
+        "Are there any esports facilities in college",
+        "how to join esports in college"
+      ],
+      "responses": [
+        "https://www.cybergrizzlies.ca/"
+      ]
+    },
+    {
+      "tag": "esports calender",
+      "patterns": [
+        "Esports calender",
+        "what are the upcoming events "
+
+      ],
+      "responses": [
+        "https://www.cybergrizzlies.ca/social"
+      ]
+    },
+    {
+      "tag": "esports club",
+      "patterns": [
+        "esports club",
+        "what is the name of esports club ",
+        "is there any esports club for college"
+      ],
+      "responses": [
+        "https://www.cybergrizzlies.ca/"
+      ]
+    },
+    {
+      "tag": "esports registration",
+      "patterns": [
+        "How to join esports club",
+        "how to register in esports club"
+      ],
+      "responses": [
+        "https://www.cybergrizzlies.ca/how-to-join"
+      ]
+    },
+    {
+      "tag": "sports facilities",
+      "patterns": [
+        "sports facilities",
+        "What sports facilities does college provide",
+        "What sportsfacilities does college have"
+      ],
+      "responses": [
+        "They are membership based"
+      ]
+    },
+    {
+      "tag": "Library",
+      "patterns": [
+        "How to book a study room in college library",
+        "How to reserve a study room in coolege library"
+
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/form/book-study-room/"
+      ]
+    },
+    {
+      "tag": "career counselor",
+      "patterns": [
+        "how to book appointment with carrer counselor",
+        "carrer counselor"
+      ],
+      "responses": [
+        "https://careerandcoop.georgiancollege.ca/home.html"
+      ]
+    },
+    {
+      "tag": "office",
+      "patterns": [
+        "Where can i download office from college website",
+        "where can I download microsoft appliaction from college website",
+        "download office"
+      ],
+      "responses": [
+        "https://www.office.com/?auth=2&home=1"
+      ]
+    },
+    {
+      "tag": "Sharepoint",
+      "patterns": [
+        "sharepoint",
+        "How can I acess Sharepoint",
+        "How can I use Sharepoint"
+      ],
+      "responses": [
+        "https://georgiancollege.sharepoint.com/_layouts/15/sharepoint.aspx?&login_hint=200522978@student.georgianc.on.ca"
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "parking",
+        "Information about parking",
+        "how can book I have parking slot",
+        "Can I have information about Parking"
+      ],
+      "responses": [
+        "https://georgianparking.t2hosted.com/Account/Portal"
+      ]
+    },
+    {
+      "tag": "Campus Saftey Services",
+      "patterns": [
+        "Information about Campus saftey Services",
+        "Campus saftey services",
+        "Saftey Services"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/about-georgian/campus-safety-services/"
+      ]
+    },
+    {
+      "tag": "One Card",
+      "patterns": [
+        "How to apply for one Card",
+        "how can i recharge one card",
+        "How can I use one card",
+        "For what can I use One card"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/student-life/campus-services/onecard/"
+      ]
+
+
+    },
+    {
+      "tag": "Student life",
+      "patterns": [
+        "How is student life at georgian",
+        "Student life",
+        "What can i except from student life at georgian"
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/student-life/"
+      ]
+    },
+    {
+      "tag": "Penji",
+      "patterns": [
+        "Can georgian students use penji app",
+        "For what can I use Penji app",
+        "Is penji app free"
+      ],
+      "responses": [
+        "https://web.penjiapp.com/communities/5yvIm4GIbz/learn"
+      ]
+    },
+    {
+      "tag": "Extracurricullar activities",
+      "patterns": [
+        "Extracuricullar activities",
+        "Benifits of participating in extracurricullar activities"
+
+      ],
+      "responses": [
+        "https://www.georgiancollege.ca/blog/student-life/7-reasons-why-joining-a-student-club-will-benefit-your-college-experience/"
+      ]
+    }
+  ]
+}
